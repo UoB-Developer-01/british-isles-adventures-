@@ -1,4 +1,4 @@
-# UK & Ireland Family Nature Holiday — Comprehensive Experience Reference Card (with Cost Estimates)
+# UK & Ireland Family Nature Holiday — Ultimate Experience Reference Card (with Cost Estimates)
 
 **Travel Style**
 
@@ -13,33 +13,38 @@
 
 ---
 
-# Top Destination Bases (Tier S)
+## Top Destination Bases (Tier S)
 
-| Destination                       | Overall | Typical Daily Cost/Person (activities + food, excl. lodging) |
-| ---------------------------------- | :-----: | :------------------------------------------------------------ |
-| Lake District National Park        |  ⭐⭐⭐⭐⭐  | £35–£70 |
-| Eryri National Park (Snowdonia)     |  ⭐⭐⭐⭐⭐  | £30–£65 |
-| Pembrokeshire Coast National Park   |  ⭐⭐⭐⭐⭐  | £35–£75 |
-| Killarney National Park             |  ⭐⭐⭐⭐⭐  | €35–€70 |
-| Cairngorms National Park             |  ⭐⭐⭐⭐⭐  | £35–£80 |
-| Northumberland                        |  ⭐⭐⭐⭐⭐  | £30–£60 |
+| Destination                       | Country  | State / Nation / Region                                | Overall | Typical Daily Cost/Person (activities + food, excl. lodging) |
+| --------------------------------- | -------- | ------------------------------------------------------ | :-----: | ------------------------------------------------------------ |
+| Lake District National Park       | England  | Cumbria                                                |  ⭐⭐⭐⭐⭐  | £35–£70                                                      |
+| Eryri National Park (Snowdonia)   | Wales    | Gwynedd & Conwy                                        |  ⭐⭐⭐⭐⭐  | £30–£65                                                      |
+| Pembrokeshire Coast National Park | Wales    | Pembrokeshire                                          |  ⭐⭐⭐⭐⭐  | £35–£75                                                      |
+| Killarney National Park           | Ireland  | County Kerry                                           |  ⭐⭐⭐⭐⭐  | €35–€70                                                      |
+| Cairngorms National Park          | Scotland | Highland, Aberdeenshire, Moray, Angus, Perth & Kinross |  ⭐⭐⭐⭐⭐  | £35–£80                                                      |
+| Northumberland                    | England  | Northumberland                                         |  ⭐⭐⭐⭐⭐  | £30–£60                                                      |
 
-# Strong Destination Bases (Tier A)
+---
 
-| Destination                  | Overall | Why It Shines                          | Typical Daily Cost/Person |
-| ----------------------------| :-----: | --------------------------------------- | -------------------------- |
-| Yorkshire Dales              |  ⭐⭐⭐⭐   | Farm stays, caving, dry stone walls     | £25–£55 |
-| Peak District                |  ⭐⭐⭐⭐   | Alpaca trekking, caverns, easy access   | £25–£55 |
-| New Forest                   |  ⭐⭐⭐⭐   | Ponies, cycling, gentle woodland trails | £25–£60 |
-| Isle of Skye                 |  ⭐⭐⭐⭐   | Dramatic coastline, wildlife boat trips | £35–£80 |
-| Isle of Mull & Iona          |  ⭐⭐⭐⭐   | Eagles, otters, whale watching          | £40–£85 |
-| North York Moors             |  ⭐⭐⭐⭐   | Steam railways, dark skies, heather     | £25–£55 |
-| Exmoor National Park         |  ⭐⭐⭐⭐   | Wild ponies, stargazing, coastal cliffs | £25–£55 |
-| Norfolk & Norfolk Broads     |  ⭐⭐⭐⭐   | Seals, boating, big skies               | £30–£65 |
-| Connemara National Park      |  ⭐⭐⭐⭐   | Wild bogs, ponies, dramatic coastline   | €30–€65 |
-| The Burren & Cliffs of Moher |  ⭐⭐⭐⭐   | Karst landscape, puffins, geology       | €30–€65 |
-| Isle of Wight                |  ⭐⭐⭐   | Fossils, coastal walks, family-friendly | £25–£50 |
-| Anglesey                     |  ⭐⭐⭐   | Coasteering, beaches, calmer pace       | £30–£60 |
+## Strong Destination Bases (Tier A)
+
+| Destination                         | Country  | State / Nation / Region                                                   | Overall | Why It Shines                           | Typical Daily Cost/Person |
+| ----------------------------------- | -------- | ------------------------------------------------------------------------- | :-----: | --------------------------------------- | ------------------------- |
+| Yorkshire Dales                     | England  | North Yorkshire & Cumbria                                                 |   ⭐⭐⭐⭐  | Farm stays, caving, dry stone walls     | £25–£55                   |
+| Peak District                       | England  | Derbyshire (also Cheshire, Staffordshire, Yorkshire & Greater Manchester) |   ⭐⭐⭐⭐  | Alpaca trekking, caverns, easy access   | £25–£55                   |
+| New Forest                          | England  | Hampshire (also Wiltshire)                                                |   ⭐⭐⭐⭐  | Ponies, cycling, gentle woodland trails | £25–£60                   |
+| Isle of Skye                        | Scotland | Highland                                                                  |   ⭐⭐⭐⭐  | Dramatic coastline, wildlife boat trips | £35–£80                   |
+| Isle of Mull & Iona                 | Scotland | Argyll and Bute                                                           |   ⭐⭐⭐⭐  | Eagles, otters, whale watching          | £40–£85                   |
+| North York Moors                    | England  | North Yorkshire                                                           |   ⭐⭐⭐⭐  | Steam railways, dark skies, heather     | £25–£55                   |
+| Exmoor National Park                | England  | Somerset & Devon                                                          |   ⭐⭐⭐⭐  | Wild ponies, stargazing, coastal cliffs | £25–£55                   |
+| Norfolk & Norfolk Broads            | England  | Norfolk (also Suffolk)                                                    |   ⭐⭐⭐⭐  | Seals, boating, big skies               | £30–£65                   |
+| Connemara National Park             | Ireland  | County Galway                                                             |   ⭐⭐⭐⭐  | Wild bogs, ponies, dramatic coastline   | €30–€65                   |
+| The Burren & Cliffs of Moher        | Ireland  | County Clare                                                              |   ⭐⭐⭐⭐  | Karst landscape, puffins, geology       | €30–€65                   |
+| Isle of Wight                       | England  | Isle of Wight                                                             |   ⭐⭐⭐   | Fossils, coastal walks, family-friendly | £25–£50                   |
+| Anglesey                            | Wales    | Isle of Anglesey                                                          |   ⭐⭐⭐   | Coasteering, beaches, calmer pace       | £30–£60                   |
+| Dartmoor National Park              | England  | Devon                                                                     |   ⭐⭐⭐   | Wild ponies, tors, letterboxing         | £25–£50                   |
+| Brecon Beacons (Bannau Brycheiniog) | Wales    | Powys, Carmarthenshire & Monmouthshire                                    |   ⭐⭐⭐   | Waterfalls, caving, dark skies          | £25–£55                   |
+| Wicklow Mountains                   | Ireland  | County Wicklow                                                            |   ⭐⭐⭐   | Glacial valleys, monastic ruins         | €25–€55                   |
 
 ---
 
@@ -67,6 +72,11 @@
 | Foraging walk              |  8.8  | £20–£40 |
 | Shepherd for a day         |  8.8  | £40–£75 |
 | Ghost walks / castle night tours |  8.7  | £8–£20 |
+| Wild camping / bothy night  |  8.7  | Free–£15 |
+| Gorge scrambling with waterfall jumps | 8.6 | £45–£70 |
+| River tubing                | 8.6  | £30–£50 |
+| Hot air balloon ride (dawn)  | 8.5  | £150–£250 |
+| Open-water sailing taster     | 8.5  | £45–£80 |
 
 ---
 
@@ -96,6 +106,11 @@
 | Basking shark snorkel        | Isle of Coll, Isle of Mull (seasonal) | £60–£100 |
 | Beaver watching               | Devon, Cairngorms                     | £15–£30 (guided evening walk) |
 | Glow-worm walks (summer nights) | Chalk downland sites, southern England | Free–£10 |
+| Birds of prey conservation centre tour | Multiple UK sites | £10–£20 |
+| Deer park self-guided walk (Bushy Park, Phoenix Park) | London, Dublin | Free |
+| Salmon leap watching (autumn run) | Scottish rivers, Ireland's Shannon | Free |
+| Puffin/seabird colony land walk (no boat) | Bempton Cliffs, Rathlin Island | Free–£5 parking |
+| Wildlife photography hide overnight stay | Cairngorms, Norfolk | £60–£120 |
 
 ---
 
@@ -123,6 +138,11 @@
 | Bouldering                | £10–£18 (indoor session) |
 | Paragliding (tandem, teens+) | £120–£180 |
 | Off-road segway / quad biking | £40–£70 |
+| Downhill mountain biking (bike park lift-served) | £35–£60 (incl. lift pass) |
+| Cliff jumping / tombstoning (guided only, tide-dependent) | £45–£65 |
+| Skydiving (indoor simulator) | £45–£70 |
+| Wakeboarding / waterskiing taster | £45–£75 |
+| Fastpacking / trail running day tour | £40–£60 |
 
 ---
 
@@ -148,6 +168,11 @@
 | Slow river punting (calm rivers) | £15–£25 (shared punt, per person) |
 | Gentle pony trekking                | £30–£50 |
 | Cloud/sky watching from a hilltop viewpoint | Free |
+| Hammock/wild picnic in ancient woodland | Free |
+| Guided sound-bath or forest bathing session | £20–£40 |
+| Lakeside yoga session (family class) | £15–£25 |
+| Sketchbook nature journaling walk | Free–£15 (guided) |
+| Slow-travel canal boat trip (short cruise) | £10–£20 |
 
 ---
 
@@ -175,6 +200,11 @@
 | Milking demonstration & dairy tour                             | £8–£15 |
 | Scything workshop                                                | £35–£55 |
 | Village fete / country show visit                                    | Free–£8 entry |
+| Turf cutting / peat bog demonstration (Ireland)                        | Free–€10 |
+| Wool spinning & weaving loom demo                                        | £10–£20 |
+| Vintage tractor & farm machinery day                                       | Free–£10 |
+| Rare-breed livestock petting farm                                            | £8–£16 |
+| Hay-making / harvest help day (seasonal, some farm stays)                      | Free–£15 |
 
 ---
 
@@ -199,6 +229,11 @@
 | Island hopping by small ferry | £15–£40 per crossing |
 | Cliff-top zip lining | £30–£55 |
 | Sea swimming clubs / cold water dipping | Free–£10 (group session) |
+| Bodyboarding / bellyboarding | £15–£25 (board hire) |
+| Coastal cave kayak tour (bioluminescence, summer) | £45–£65 |
+| Dune walking & sand dune ecology walk | Free–£10 (guided) |
+| Harbour heritage & fishing boat tour | £10–£20 |
+| Seaweed bath / thalassotherapy (Ireland, Strandhill) | €25–€40 |
 
 ---
 
@@ -220,6 +255,11 @@
 | Scree running (with guide) | £45–£70 |
 | Heather moorland walks (late summer bloom) | Free |
 | Mountain rescue centre visit (educational) | Free–£10 |
+| Ridge walk / scrambling route (e.g. Crib Goch, teens+) | Free (guide £50–£90) |
+| Highland games / local heavy-events day | Free–£12 |
+| Glacial valley walk with geology guide | £20–£35 |
+| Mountain hut / bothy overnight stay | Free–£15 |
+| Panoramic cable car + summit café combo | £20–£30 |
 
 ---
 
@@ -245,6 +285,11 @@
 | WWII bunker / heritage site tours | £8–£18 |
 | Historic canal & lock-keeping demonstrations | Free–£10 |
 | Monastic garden visits | Free–£10 |
+| Early Christian monastic site (Glendalough, Skellig heritage centre) | €5–€12 |
+| Neolithic passage tomb visit (Newgrange) | €10–€18 |
+| Medieval banquet / living-history dinner | £30–£55 |
+| Battle re-enactment weekend event | Free–£15 |
+| Historic mine or quarry underground tour | £15–£30 |
 
 ---
 
@@ -269,6 +314,11 @@
 | Jewelry making from beach-found materials | £25–£40 |
 | Distillery tours & tasting | £15–£35 (soft-drink/tour-only rate for teens usually available) |
 | Brewery tours (family-friendly) | £10–£20 |
+| Leatherworking taster session | £35–£55 |
+| Stained glass making | £45–£75 |
+| Traditional Irish bodhrán (drum) making | €40–€65 |
+| Knife-making / bushcraft tool forging | £60–£100 |
+| Perfume/fragrance blending workshop | £35–£55 |
 
 ---
 
@@ -290,6 +340,11 @@
 | Falconry "fly a hawk" experiences | £40–£70 |
 | Local food market scavenger hunts | Free (plus food purchases) |
 | Drone photography workshops | £40–£65 |
+| Laser tag / paintball in a forest setting | £25–£40 |
+| Team GPS/trail challenge with prizes | £15–£30 |
+| Outdoor escape trail (nature-themed puzzle hunt) | £10–£20 |
+| Water balloon / obstacle course adventure park | £20–£35 |
+| Trampoline & adventure park (indoor/outdoor combo) | £15–£25 |
 
 ---
 
@@ -306,6 +361,111 @@
 | Board game cafés in market towns | £5–£8 (venue fee) plus food/drink |
 | Cinema in a converted heritage building | £8–£14 |
 | Craft workshops (pottery, glassblowing indoors) | £35–£90 (see craft table) |
+| Indoor swimming pool / leisure centre with slides | £6–£12 |
+| Escape rooms (town centre) | £20–£30 |
+| Bowling alley family session | £10–£18 |
+| Local library heritage/archive exploration | Free |
+| Indoor trampoline park | £10–£18 |
+
+---
+
+# Best Water-Based & Boating Experiences
+
+| Activity | Cost/Person |
+| -------- | ----------- |
+| Loch/lake cruise (scenic, guided commentary) | £15–£30 |
+| River rafting on gentle rivers (family-grade) | £30–£50 |
+| Sailing dinghy taster course | £45–£85 |
+| Family sailing charter (half day, skippered) | £60–£100 |
+| River fishing taster (with tackle hire) | £25–£45 |
+| Sea fishing charter trip | £40–£70 |
+| Coastal RIB (speedboat) safari | £35–£60 |
+| Pedal boat / duck boat hire | £8–£15 (per 30 min) |
+| Snorkeling in a designated marine trail | £20–£40 (guided) |
+| Open water swimming event / triathlon taster | £15–£30 |
+
+---
+
+# Best Garden, Woodland & Botanical Experiences
+
+| Activity | Cost/Person |
+| -------- | ----------- |
+| Historic walled garden visit | £8–£15 |
+| Botanical garden day pass | £10–£18 |
+| Ancient woodland guided walk | Free–£15 |
+| Bluebell wood spring walk (seasonal) | Free |
+| Tree canopy walkway | £10–£18 |
+| Woodland sculpture trail | Free–£8 |
+| Community orchard visit & apple tasting | Free–£10 |
+| Fungi & mushroom foraging walk (autumn) | £20–£35 |
+| National Trust/heritage estate parkland walk | Free–£15 (some require membership/entry) |
+| Japanese-style or themed garden visit | £8–£15 |
+
+---
+
+# Best Food & Drink Experiences
+
+| Activity | Cost/Person |
+| -------- | ----------- |
+| Farm-to-table dinner experience | £35–£65 |
+| Local food/farmers market tour & tasting | Free–£20 |
+| Fish and chips by the harbour (classic) | £10–£16 |
+| Afternoon cream tea (Devon/Cornwall style) | £12–£20 |
+| Whisky/gin tasting flight (adults; teens can tour) | £15–£35 |
+| Traditional Irish pub session with live music | Free entry (food/drink £15–£30) |
+| Honey tasting at an apiary | £10–£20 |
+| Seafood shack / oyster tasting on the coast | £15–£30 |
+| Chocolate or fudge-making family class | £25–£45 |
+| Bakery/bread-making morning class | £30–£50 |
+
+---
+
+# Best Festival & Seasonal Event Experiences
+
+| Activity | Cost/Person |
+| -------- | ----------- |
+| Highland Games event day | £10–£20 |
+| County agricultural show | £10–£20 |
+| Christmas market / winter lights trail (seasonal) | Free–£15 |
+| Harvest festival celebration | Free–£10 |
+| Folk music festival (day ticket) | £20–£45 |
+| Halloween/Samhain themed castle event (Ireland has strong ties to Samhain origins) | £10–£25 |
+| Bonfire Night / fireworks display | Free–£10 |
+| May Day / village fair celebrations | Free–£10 |
+| Sheepdog trials competition day | £5–£15 |
+| Local Puck Fair / traditional fair (Killorglin, Ireland) | Free–€10 |
+
+---
+
+# Best Ireland-Specific Experiences
+
+| Activity | Cost/Person |
+| -------- | ----------- |
+| Ring of Kerry scenic drive & stops | Free (car/fuel cost shared) |
+| Skellig Michael boat trip (weather-dependent, book ahead) | €100–€130 |
+| Gap of Dunloe pony & trap ride | €25–€40 |
+| Irish traditional music & dance session | Free–€20 |
+| Currach (traditional boat) rowing experience | €30–€50 |
+| Bog walk with turf-cutting demonstration | Free–€15 |
+| Aran Islands day trip (ferry + bike hire) | €45–€65 |
+| Killarney lake boat tour | €20–€35 |
+| Irish language & folklore storytelling evening | €10–€20 |
+| Cliffs of Moher guided coastal walk (beyond visitor centre) | Free–€10 |
+
+---
+
+# Best Multi-Day / Overnight Adventures
+
+| Activity | Cost/Person |
+| -------- | ----------- |
+| Hut-to-hut mountain trekking (2–4 days, guided) | £250–£450 |
+| Multi-day narrowboat canal holiday | £400–£700 (whole boat, split across group, per week) |
+| Coast-to-coast cycling route (guided, multi-day, luggage transfer) | £350–£600 |
+| Wild camping micro-adventure (1–2 nights, guided) | £80–£150 |
+| Island bothy or hostel-hopping trip (Scotland) | £150–£300 |
+| Sea kayak expedition camping (2–3 days) | £200–£350 |
+| Family bikepacking weekend | £100–£200 |
+| Camino-style pilgrimage walk (e.g. St Cuthbert's Way, multi-day) | Free walk + £200–£400 accommodation |
 
 ---
 
@@ -372,8 +532,11 @@
 | 28 | Stone circle sunset visit | Free–£10 |
 | 29 | Cheese or cider making workshop | £15–£75 |
 | 30 | Night hike with head torches | Free–£20 |
-
-**Rough total if doing all 30 (per person):** approximately **£650–£1,150**, though many families would pick a subset of 10–15 rather than all 30.
+| 31 | Skellig Michael boat trip (Ireland) | €100–€130 |
+| 32 | Ring of Kerry scenic drive | Free–modest fuel cost |
+| 33 | Newgrange passage tomb visit (Ireland) | €10–€18 |
+| 34 | Hut-to-hut mountain trekking weekend | £250–£450 |
+| 35 | Hot air balloon dawn flight | £150–£250 |
 
 ---
 
@@ -388,6 +551,8 @@ For your preferred travel style—**nature, tranquility, rustic charm, and meani
 * 🏅 Cairngorms
 * 🏅 Northumberland
 
-Strong secondary options worth weaving in for variety — **Yorkshire Dales, Isle of Skye/Mull, Exmoor, Connemara, and the Burren** — add extra wildlife, geology, and traditional-craft depth without sacrificing the calm, uncrowded feel you're after.
+Strong secondary options worth weaving in for variety — **Yorkshire Dales, Isle of Skye/Mull, Exmoor, Connemara, the Burren, Dartmoor, and Brecon Beacons** — add extra wildlife, geology, and traditional-craft depth without sacrificing the calm, uncrowded feel you're after.
 
-**Budgeting tip:** the cheapest, highest-value experiences are almost all free nature-based ones (coastal walks, wild pony/deer spotting, waterfall hikes, rock pooling, stargazing). The priciest are premium adrenaline or wildlife-boat activities (£45–£90+ per person). A good family budget mix is roughly **2 paid "big" activities per week per person**, filling the rest of the itinerary with free walks, farm visits, and village exploring.
+**New category highlights worth prioritising for teens specifically:** bushcraft/survival days, axe throwing, laser tag in forest settings, drone photography, and multi-day micro-adventures (wild camping, sea kayak expeditions) tend to land especially well with teenagers who want more agency and physical challenge than younger kids' activities offer.
+
+**Budgeting tip:** the cheapest, highest-value experiences are almost all free nature-based ones (coastal walks, wild pony/deer spotting, waterfall hikes, rock pooling, stargazing, woodland walks, garden visits). The priciest are premium adrenaline activities, wildlife boat trips, and multi-day adventures (£45–£250+ per person). A good family budget mix is roughly **2 paid "big" activities per week per person**, filling the rest of the itinerary with free walks, farm visits, gardens, festivals, and village exploring.

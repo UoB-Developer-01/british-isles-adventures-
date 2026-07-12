@@ -96,20 +96,21 @@
 
 ---
 
-# Location-by-Location Lodging Recommendations
+## Location-by-Location Lodging Recommendations
 
-| Destination | Best Lodging Style for This Trip | Typical Cost/Night (Family of 4) | Notes |
-| ------------ | ---------------------------------- | ---------------------------------- | ------ |
-| Lake District | Self-catering cottage or lakeside lodge | £130–£260 | Book 6+ months ahead for peak summer/half-term |
-| Eryri (Snowdonia) | Converted barn or farm stay near Betws-y-Coed | £110–£220 | Good base for step-free forest trails nearby |
-| Pembrokeshire Coast | Seaside cottage or coastal glamping | £120–£230 | Choose village bases (St Davids, Tenby) for accessibility to shops |
-| Killarney National Park | Farmhouse B&B or self-catering cottage | €110–€220 | National Park jaunting-car routes are step-free and family-friendly |
-| Cairngorms | Crofter's cottage or lodge resort | £120–£240 | Aviemore is the most accessible/family-equipped town base |
-| Northumberland | Farm stay or shepherd's hut | £100–£200 | Excellent Dark Sky Park access right from the property in many cases |
-| Yorkshire Dales | Converted barn or farm stay | £110–£210 | Many working farms offer hands-on family stays |
-| Isle of Skye | Self-catering cottage or crofter's cottage | £130–£250 | Book early; limited accessible lodging on the island |
-| New Forest | Glamping or lodge resort | £110–£230 | Very step-free-friendly, flat terrain, good for mixed-mobility groups |
-| Connemara/Killarney area (Ireland) | Farmhouse stay or self-catering cottage | €100–€210 | Rural roads narrow — confirm parking access at the property |
+| Destination              | Country  | State / Nation / Region                                   | Best Lodging Style for This Trip              | Typical Cost/Night (Family of 4) | Notes                                                                 |
+| ------------------------ | -------- | --------------------------------------------------------- | --------------------------------------------- | -------------------------------- | --------------------------------------------------------------------- |
+| Lake District            | England  | Cumbria                                                   | Self-catering cottage or lakeside lodge       | £130–£260                        | Book 6+ months ahead for peak summer/half-term                        |
+| Eryri (Snowdonia)        | Wales    | Gwynedd & Conwy                                           | Converted barn or farm stay near Betws-y-Coed | £110–£220                        | Good base for step-free forest trails nearby                          |
+| Pembrokeshire Coast      | Wales    | Pembrokeshire                                             | Seaside cottage or coastal glamping           | £120–£230                        | Choose village bases (St Davids, Tenby) for accessibility to shops    |
+| Killarney National Park  | Ireland  | County Kerry                                              | Farmhouse B&B or self-catering cottage        | €110–€220                        | National Park jaunting-car routes are step-free and family-friendly   |
+| Cairngorms National Park | Scotland | Highland, Aberdeenshire, Moray, Angus & Perth and Kinross | Crofter's cottage or lodge resort             | £120–£240                        | Aviemore is the most accessible and family-equipped town base         |
+| Northumberland           | England  | Northumberland                                            | Farm stay or shepherd's hut                   | £100–£200                        | Excellent Dark Sky Park access right from many properties             |
+| Yorkshire Dales          | England  | North Yorkshire & Cumbria                                 | Converted barn or farm stay                   | £110–£210                        | Many working farms offer hands-on family stays                        |
+| Isle of Skye             | Scotland | Highland                                                  | Self-catering cottage or crofter's cottage    | £130–£250                        | Book early; limited accessible lodging on the island                  |
+| New Forest               | England  | Hampshire (also Wiltshire)                                | Glamping or lodge resort                      | £110–£230                        | Very step-free-friendly, flat terrain, good for mixed-mobility groups |
+| Connemara National Park  | Ireland  | County Galway                                             | Farmhouse stay or self-catering cottage       | €100–€210                        | Rural roads are narrow—confirm parking access at the property         |
+
 
 ---
 

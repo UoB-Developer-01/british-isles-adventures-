@@ -16,3 +16,4 @@
 - [ ] deer safari
 - [ ] puffin cruise: https://www.youtube.com/watch?v=8jlQQKnfPdo&loop=0
 - [ ] Geocaching trails
+- [ ] Maze garden

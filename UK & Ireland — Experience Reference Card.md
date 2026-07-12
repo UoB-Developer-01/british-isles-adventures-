@@ -13,36 +13,38 @@
 
 ---
 
-# Top Destination Bases (Tier S)
+## Top Destination Bases (Tier S)
 
-| Destination                       | Overall | Typical Daily Cost/Person (activities + food, excl. lodging) |
-| ---------------------------------- | :-----: | :------------------------------------------------------------ |
-| Lake District National Park        |  ⭐⭐⭐⭐⭐  | £35–£70 |
-| Eryri National Park (Snowdonia)     |  ⭐⭐⭐⭐⭐  | £30–£65 |
-| Pembrokeshire Coast National Park   |  ⭐⭐⭐⭐⭐  | £35–£75 |
-| Killarney National Park             |  ⭐⭐⭐⭐⭐  | €35–€70 |
-| Cairngorms National Park             |  ⭐⭐⭐⭐⭐  | £35–£80 |
-| Northumberland                        |  ⭐⭐⭐⭐⭐  | £30–£60 |
+| Destination                       | Country  | State / Nation / Region                                | Overall | Typical Daily Cost/Person (activities + food, excl. lodging) |
+| --------------------------------- | -------- | ------------------------------------------------------ | :-----: | ------------------------------------------------------------ |
+| Lake District National Park       | England  | Cumbria                                                |  ⭐⭐⭐⭐⭐  | £35–£70                                                      |
+| Eryri National Park (Snowdonia)   | Wales    | Gwynedd & Conwy                                        |  ⭐⭐⭐⭐⭐  | £30–£65                                                      |
+| Pembrokeshire Coast National Park | Wales    | Pembrokeshire                                          |  ⭐⭐⭐⭐⭐  | £35–£75                                                      |
+| Killarney National Park           | Ireland  | County Kerry                                           |  ⭐⭐⭐⭐⭐  | €35–€70                                                      |
+| Cairngorms National Park          | Scotland | Highland, Aberdeenshire, Moray, Angus, Perth & Kinross |  ⭐⭐⭐⭐⭐  | £35–£80                                                      |
+| Northumberland                    | England  | Northumberland                                         |  ⭐⭐⭐⭐⭐  | £30–£60                                                      |
 
-# Strong Destination Bases (Tier A)
+---
 
-| Destination                  | Overall | Why It Shines                          | Typical Daily Cost/Person |
-| ----------------------------| :-----: | --------------------------------------- | -------------------------- |
-| Yorkshire Dales              |  ⭐⭐⭐⭐   | Farm stays, caving, dry stone walls     | £25–£55 |
-| Peak District                |  ⭐⭐⭐⭐   | Alpaca trekking, caverns, easy access   | £25–£55 |
-| New Forest                   |  ⭐⭐⭐⭐   | Ponies, cycling, gentle woodland trails | £25–£60 |
-| Isle of Skye                 |  ⭐⭐⭐⭐   | Dramatic coastline, wildlife boat trips | £35–£80 |
-| Isle of Mull & Iona          |  ⭐⭐⭐⭐   | Eagles, otters, whale watching          | £40–£85 |
-| North York Moors             |  ⭐⭐⭐⭐   | Steam railways, dark skies, heather     | £25–£55 |
-| Exmoor National Park         |  ⭐⭐⭐⭐   | Wild ponies, stargazing, coastal cliffs | £25–£55 |
-| Norfolk & Norfolk Broads     |  ⭐⭐⭐⭐   | Seals, boating, big skies               | £30–£65 |
-| Connemara National Park      |  ⭐⭐⭐⭐   | Wild bogs, ponies, dramatic coastline   | €30–€65 |
-| The Burren & Cliffs of Moher |  ⭐⭐⭐⭐   | Karst landscape, puffins, geology       | €30–€65 |
-| Isle of Wight                |  ⭐⭐⭐   | Fossils, coastal walks, family-friendly | £25–£50 |
-| Anglesey                     |  ⭐⭐⭐   | Coasteering, beaches, calmer pace       | £30–£60 |
-| Dartmoor National Park       |  ⭐⭐⭐   | Wild ponies, tors, letterboxing         | £25–£50 |
-| Brecon Beacons (Bannau Brycheiniog) | ⭐⭐⭐ | Waterfalls, caving, dark skies          | £25–£55 |
-| Wicklow Mountains (Ireland)  |  ⭐⭐⭐   | Glacial valleys, monastic ruins         | €25–€55 |
+## Strong Destination Bases (Tier A)
+
+| Destination                         | Country  | State / Nation / Region                                                   | Overall | Why It Shines                           | Typical Daily Cost/Person |
+| ----------------------------------- | -------- | ------------------------------------------------------------------------- | :-----: | --------------------------------------- | ------------------------- |
+| Yorkshire Dales                     | England  | North Yorkshire & Cumbria                                                 |   ⭐⭐⭐⭐  | Farm stays, caving, dry stone walls     | £25–£55                   |
+| Peak District                       | England  | Derbyshire (also Cheshire, Staffordshire, Yorkshire & Greater Manchester) |   ⭐⭐⭐⭐  | Alpaca trekking, caverns, easy access   | £25–£55                   |
+| New Forest                          | England  | Hampshire (also Wiltshire)                                                |   ⭐⭐⭐⭐  | Ponies, cycling, gentle woodland trails | £25–£60                   |
+| Isle of Skye                        | Scotland | Highland                                                                  |   ⭐⭐⭐⭐  | Dramatic coastline, wildlife boat trips | £35–£80                   |
+| Isle of Mull & Iona                 | Scotland | Argyll and Bute                                                           |   ⭐⭐⭐⭐  | Eagles, otters, whale watching          | £40–£85                   |
+| North York Moors                    | England  | North Yorkshire                                                           |   ⭐⭐⭐⭐  | Steam railways, dark skies, heather     | £25–£55                   |
+| Exmoor National Park                | England  | Somerset & Devon                                                          |   ⭐⭐⭐⭐  | Wild ponies, stargazing, coastal cliffs | £25–£55                   |
+| Norfolk & Norfolk Broads            | England  | Norfolk (also Suffolk)                                                    |   ⭐⭐⭐⭐  | Seals, boating, big skies               | £30–£65                   |
+| Connemara National Park             | Ireland  | County Galway                                                             |   ⭐⭐⭐⭐  | Wild bogs, ponies, dramatic coastline   | €30–€65                   |
+| The Burren & Cliffs of Moher        | Ireland  | County Clare                                                              |   ⭐⭐⭐⭐  | Karst landscape, puffins, geology       | €30–€65                   |
+| Isle of Wight                       | England  | Isle of Wight                                                             |   ⭐⭐⭐   | Fossils, coastal walks, family-friendly | £25–£50                   |
+| Anglesey                            | Wales    | Isle of Anglesey                                                          |   ⭐⭐⭐   | Coasteering, beaches, calmer pace       | £30–£60                   |
+| Dartmoor National Park              | England  | Devon                                                                     |   ⭐⭐⭐   | Wild ponies, tors, letterboxing         | £25–£50                   |
+| Brecon Beacons (Bannau Brycheiniog) | Wales    | Powys, Carmarthenshire & Monmouthshire                                    |   ⭐⭐⭐   | Waterfalls, caving, dark skies          | £25–£55                   |
+| Wicklow Mountains                   | Ireland  | County Wicklow                                                            |   ⭐⭐⭐   | Glacial valleys, monastic ruins         | €25–€55                   |
 
 ---
 

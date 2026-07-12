@@ -1,6 +1,9 @@
 
 1. pick/vote for the best activities 
-2. find best locations and roadmap to them
+1. find best locations and roadmap to them
+1. buy 360 camera
+
+
 
 ----
 

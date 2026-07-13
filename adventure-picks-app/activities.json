@@ -432,12 +432,6 @@
     "cost": "£50–£90"
   },
   {
-    "id": "act-073",
-    "name": "Brewery tours (family-friendly)",
-    "category": "Craft & Maker Experiences",
-    "cost": "£10–£20"
-  },
-  {
     "id": "act-074",
     "name": "Candle making",
     "category": "Craft & Maker Experiences",
@@ -454,12 +448,6 @@
     "name": "Chocolate making",
     "category": "Craft & Maker Experiences",
     "cost": "£35–£55"
-  },
-  {
-    "id": "act-077",
-    "name": "Distillery tours & tasting",
-    "category": "Craft & Maker Experiences",
-    "cost": "£15–£35 (soft-drink/tour-only rate for teens usually available)"
   },
   {
     "id": "act-078",
@@ -748,18 +736,6 @@
     "name": "Seafood shack / oyster tasting on the coast",
     "category": "Food & Drink Experiences",
     "cost": "£15–£30"
-  },
-  {
-    "id": "act-126",
-    "name": "Traditional Irish pub session with live music",
-    "category": "Food & Drink Experiences",
-    "cost": "Free entry (food/drink £15–£30)"
-  },
-  {
-    "id": "act-127",
-    "name": "Whisky/gin tasting flight (adults; teens can tour)",
-    "category": "Food & Drink Experiences",
-    "cost": "£15–£35"
   },
   {
     "id": "act-128",
@@ -1186,12 +1162,6 @@
     "name": "Craft workshops (pottery, glassblowing indoors)",
     "category": "Rainy-Day Backup Activities",
     "cost": "£35–£90 (see craft table)"
-  },
-  {
-    "id": "act-199",
-    "name": "Distillery/brewery visitor centres",
-    "category": "Rainy-Day Backup Activities",
-    "cost": "£10–£25"
   },
   {
     "id": "act-200",

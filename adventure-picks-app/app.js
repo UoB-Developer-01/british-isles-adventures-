@@ -170,24 +170,44 @@
     renderRankList();
   }
 
+  let touchDragEl = null;
   function handleTouchStart(e) {
     const handle = e.target.closest('.drag-handle');
     const item = handle && handle.closest('.rank-item');
     if (!item) return;
     draggingId = item.dataset.id;
-    renderRankList();
+    touchDragEl = item;
+    item.classList.add('dragging');
+  }
+  function updateRankNumbers() {
+    Array.from(el.rankList.children).forEach((li, i) => {
+      const num = li.querySelector('.rank-number');
+      if (num) num.textContent = i + 1;
+    });
   }
   function handleTouchMove(e) {
-    if (!draggingId) return;
+    if (!draggingId || !touchDragEl) return;
     e.preventDefault();
     const touch = e.touches[0];
     const el2 = document.elementFromPoint(touch.clientX, touch.clientY);
     const target = el2 && el2.closest('.rank-item');
-    if (target) reorderTo(target.dataset.id);
+    if (!target || target === touchDragEl) return;
+    const targetIdx = state.selectedIds.indexOf(target.dataset.id);
+    const dragIdx = state.selectedIds.indexOf(draggingId);
+    if (targetIdx === -1 || dragIdx === -1) return;
+    state.selectedIds.splice(dragIdx, 1);
+    state.selectedIds.splice(targetIdx, 0, draggingId);
+    saveSelection();
+    // Move the live node in place (instead of re-rendering) so it stays attached
+    // to the DOM and keeps receiving touchmove/touchend for this touch sequence.
+    if (dragIdx < targetIdx) target.after(touchDragEl);
+    else target.before(touchDragEl);
+    updateRankNumbers();
   }
   function handleTouchEnd() {
     if (!draggingId) return;
     draggingId = null;
+    touchDragEl = null;
     renderRankList();
   }
 

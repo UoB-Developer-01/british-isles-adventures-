@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pick &amp; Rank Your Favorite Activities</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="app-header">
+  <h1>UK &amp; Ireland Family Nature Holiday</h1>
+  <p class="subtitle">Pick your favorite activities, rank them, then share your list.</p>
+  <nav class="steps" aria-label="Steps">
+    <button class="step-btn active" data-step="pick">1. Pick</button>
+    <button class="step-btn" data-step="rank">2. Rank</button>
+    <button class="step-btn" data-step="share">3. Share</button>
+  </nav>
+</header>
+
+<main>
+  <section id="step-pick" class="step-panel active" aria-labelledby="pick-heading">
+    <div class="panel-toolbar">
+      <h2 id="pick-heading">Pick your favorite activities</h2>
+      <input id="search-input" type="search" placeholder="Search activities…" aria-label="Search activities" />
+      <select id="category-filter" aria-label="Filter by category"></select>
+    </div>
+    <p class="selection-count"><span id="selected-count">0</span> selected</p>
+    <div id="activity-list" class="activity-list"></div>
+  </section>
+
+  <section id="step-rank" class="step-panel" aria-labelledby="rank-heading">
+    <h2 id="rank-heading">Rank your favorites</h2>
+    <p class="hint">Drag to reorder, or use the arrow buttons. Your top pick goes first.</p>
+    <ol id="rank-list" class="rank-list"></ol>
+    <p id="rank-empty" class="empty-state">You haven't picked any activities yet. Go back to Step 1.</p>
+  </section>
+
+  <section id="step-share" class="step-panel" aria-labelledby="share-heading">
+    <h2 id="share-heading">Share your list</h2>
+    <pre id="share-preview" class="share-preview"></pre>
+    <div class="share-actions">
+      <button id="share-btn" class="primary-btn">Share…</button>
+      <button id="download-btn" class="primary-btn">Download .txt</button>
+    </div>
+    <p id="share-fallback-msg" class="hint" hidden>Web Share isn't supported in this browser — use Download instead.</p>
+  </section>
+</main>
+
+<footer class="app-footer">
+  <button id="reset-btn" class="danger-btn">Reset all picks</button>
+  <span class="save-note">Saved automatically in this browser.</span>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

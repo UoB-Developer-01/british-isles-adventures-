@@ -170,28 +170,26 @@
     renderRankList();
   }
 
+  const LONG_PRESS_MS = 350;
+  const LONG_PRESS_CANCEL_PX = 10;
+  const SCROLL_EDGE_PX = 70;
+  const SCROLL_MAX_SPEED = 16;
+
   let touchDragEl = null;
-  function handleTouchStart(e) {
-    const handle = e.target.closest('.drag-handle');
-    const item = handle && handle.closest('.rank-item');
-    if (!item) return;
-    draggingId = item.dataset.id;
-    touchDragEl = item;
-    item.classList.add('dragging');
-  }
+  let pendingTouch = null;
+  let lastTouchX = 0;
+  let lastTouchY = 0;
+  let autoScrollRAF = null;
+
   function updateRankNumbers() {
     Array.from(el.rankList.children).forEach((li, i) => {
       const num = li.querySelector('.rank-number');
       if (num) num.textContent = i + 1;
     });
   }
-  function handleTouchMove(e) {
-    if (!draggingId || !touchDragEl) return;
-    e.preventDefault();
-    const touch = e.touches[0];
-    const el2 = document.elementFromPoint(touch.clientX, touch.clientY);
-    const target = el2 && el2.closest('.rank-item');
-    if (!target || target === touchDragEl) return;
+
+  function reorderTouchTo(target) {
+    if (!draggingId || !touchDragEl || !target || target === touchDragEl) return;
     const targetIdx = state.selectedIds.indexOf(target.dataset.id);
     const dragIdx = state.selectedIds.indexOf(draggingId);
     if (targetIdx === -1 || dragIdx === -1) return;
@@ -204,7 +202,90 @@
     else target.before(touchDragEl);
     updateRankNumbers();
   }
+
+  function autoScrollStep() {
+    if (!draggingId) {
+      autoScrollRAF = null;
+      return;
+    }
+    const viewportH = window.innerHeight;
+    let dy = 0;
+    if (lastTouchY < SCROLL_EDGE_PX) {
+      dy = -SCROLL_MAX_SPEED * (1 - lastTouchY / SCROLL_EDGE_PX);
+    } else if (lastTouchY > viewportH - SCROLL_EDGE_PX) {
+      dy = SCROLL_MAX_SPEED * (1 - (viewportH - lastTouchY) / SCROLL_EDGE_PX);
+    }
+    if (dy !== 0) {
+      window.scrollBy(0, dy);
+      const pointEl = document.elementFromPoint(lastTouchX, lastTouchY);
+      const target = pointEl && pointEl.closest('.rank-item');
+      if (target) reorderTouchTo(target);
+    }
+    autoScrollRAF = requestAnimationFrame(autoScrollStep);
+  }
+
+  function startAutoScroll() {
+    if (!autoScrollRAF) autoScrollRAF = requestAnimationFrame(autoScrollStep);
+  }
+  function stopAutoScroll() {
+    if (autoScrollRAF) {
+      cancelAnimationFrame(autoScrollRAF);
+      autoScrollRAF = null;
+    }
+  }
+
+  function clearPendingTouch() {
+    if (pendingTouch) clearTimeout(pendingTouch.timer);
+    pendingTouch = null;
+  }
+
+  function beginTouchDrag(item) {
+    draggingId = item.dataset.id;
+    touchDragEl = item;
+    item.classList.add('dragging');
+    if (navigator.vibrate) navigator.vibrate(15);
+    startAutoScroll();
+  }
+
+  function handleTouchStart(e) {
+    const handle = e.target.closest('.drag-handle');
+    const item = handle && handle.closest('.rank-item');
+    if (!item) return;
+    const touch = e.touches[0];
+    clearPendingTouch();
+    lastTouchX = touch.clientX;
+    lastTouchY = touch.clientY;
+    pendingTouch = {
+      startX: touch.clientX,
+      startY: touch.clientY,
+      // Holding the handle still (without dragging away) confirms drag intent,
+      // so a quick tap/swipe near the handle can't accidentally reorder the list.
+      timer: setTimeout(() => {
+        if (!pendingTouch) return;
+        beginTouchDrag(item);
+        pendingTouch = null;
+      }, LONG_PRESS_MS),
+    };
+  }
+  function handleTouchMove(e) {
+    const touch = e.touches[0];
+    if (pendingTouch) {
+      const dx = touch.clientX - pendingTouch.startX;
+      const dy = touch.clientY - pendingTouch.startY;
+      if (Math.hypot(dx, dy) > LONG_PRESS_CANCEL_PX) clearPendingTouch();
+      return;
+    }
+    if (!draggingId || !touchDragEl) return;
+    e.preventDefault();
+    lastTouchX = touch.clientX;
+    lastTouchY = touch.clientY;
+    const el2 = document.elementFromPoint(touch.clientX, touch.clientY);
+    const target = el2 && el2.closest('.rank-item');
+    if (target) reorderTouchTo(target);
+  }
   function handleTouchEnd() {
+    clearPendingTouch();
+    stopAutoScroll();
     if (!draggingId) return;
     draggingId = null;
     touchDragEl = null;

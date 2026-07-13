@@ -239,6 +239,7 @@ main {
 
 .rank-item.dragging {
   opacity: 0.5;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
 }
 
 .rank-number {
@@ -280,6 +281,7 @@ main {
   padding: 0 0.2rem;
   user-select: none;
   touch-action: none;
+  -webkit-touch-callout: none;
 }
 
 .empty-state {

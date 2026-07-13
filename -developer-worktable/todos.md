@@ -15,8 +15,8 @@
     ```
 
 1. [x] ui colors are super bland dark and not related to ireland/uk, background should be light with a a dark theme option
-1. [ ] in rank tab it should support touch and drag sort. it works properly on desktop but not mobile
-1. [ ] nav bars and buttons should be layedout out for a mobile first experience
+1. [x] in rank tab it should support touch and drag sort. it works properly on desktop but not mobile
+1. [ ] when scrolling the page the nav element should be be sticky, and in the pick and rank tabs so should be the parts preceeding the pick list and the rank list 
 1. [ ] in the pick tab each card should include youtube search and google images search buttons that open in a new tab
 1. [ ] user can remove picks from the ranking tab
 1. [ ] the shared file should have a proper nam, optionally the user can enter their own

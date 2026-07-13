@@ -21,7 +21,7 @@
 1. [ ] user can remove picks from the ranking tab
 1. [ ] the shared file should have a proper nam, optionally the user can enter their own
 1. [ ] the user can add their own custom activities in the rank tab 
-1. [ ] 
+1. [ ] plan your adventures together slogan
 1. [ ] 
 1. [ ] 
 1. [ ] 

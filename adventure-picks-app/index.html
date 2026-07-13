@@ -20,27 +20,32 @@
     <span class="icon-light" aria-hidden="true">&#9728;</span>
     <span class="icon-dark" aria-hidden="true">&#9789;</span>
   </button>
-  <nav class="steps" aria-label="Steps">
-    <button class="step-btn active" data-step="pick">1. Pick</button>
-    <button class="step-btn" data-step="rank">2. Rank</button>
-    <button class="step-btn" data-step="share">3. Share</button>
-  </nav>
 </header>
+
+<nav class="steps" aria-label="Steps">
+  <button class="step-btn active" data-step="pick">1. Pick</button>
+  <button class="step-btn" data-step="rank">2. Rank</button>
+  <button class="step-btn" data-step="share">3. Share</button>
+</nav>
 
 <main>
   <section id="step-pick" class="step-panel active" aria-labelledby="pick-heading">
-    <div class="panel-toolbar">
-      <h2 id="pick-heading">Pick your favorite activities</h2>
-      <input id="search-input" type="search" placeholder="Search activities…" aria-label="Search activities" />
-      <select id="category-filter" aria-label="Filter by category"></select>
+    <div class="sticky-panel-head">
+      <div class="panel-toolbar">
+        <h2 id="pick-heading">Pick your favorite activities</h2>
+        <input id="search-input" type="search" placeholder="Search activities…" aria-label="Search activities" />
+        <select id="category-filter" aria-label="Filter by category"></select>
+      </div>
+      <p class="selection-count"><span id="selected-count">0</span> selected</p>
     </div>
-    <p class="selection-count"><span id="selected-count">0</span> selected</p>
     <div id="activity-list" class="activity-list"></div>
   </section>
 
   <section id="step-rank" class="step-panel" aria-labelledby="rank-heading">
-    <h2 id="rank-heading">Rank your favorites</h2>
-    <p class="hint">Drag to reorder, or use the arrow buttons. Your top pick goes first.</p>
+    <div class="sticky-panel-head">
+      <h2 id="rank-heading">Rank your favorites</h2>
+      <p class="hint">Drag to reorder, or use the arrow buttons. Your top pick goes first.</p>
+    </div>
     <ol id="rank-list" class="rank-list"></ol>
     <p id="rank-empty" class="empty-state">You haven't picked any activities yet. Go back to Step 1.</p>
   </section>

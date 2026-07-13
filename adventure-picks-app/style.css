@@ -96,8 +96,14 @@ body::before {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
   border-bottom: 1px solid var(--border);
-  padding-bottom: 0;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--bg);
 }
 
 .step-btn {
@@ -130,6 +136,16 @@ main {
 
 .step-panel.active {
   display: block;
+}
+
+.sticky-panel-head {
+  position: sticky;
+  top: var(--nav-h, 0px);
+  z-index: 10;
+  background: var(--bg);
+  padding-top: 0.75rem;
+  margin-top: -0.75rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .panel-toolbar {

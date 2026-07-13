@@ -52,6 +52,11 @@
     showToast._t = setTimeout(() => el.toast.classList.remove('visible'), 1800);
   }
 
+  function updateNavHeightVar() {
+    const nav = document.querySelector('.steps');
+    if (nav) document.documentElement.style.setProperty('--nav-h', `${nav.offsetHeight}px`);
+  }
+
   function switchStep(step) {
     el.stepBtns.forEach((btn) => btn.classList.toggle('active', btn.dataset.step === step));
     el.stepPanels.forEach((panel) => panel.classList.toggle('active', panel.id === `step-${step}`));
@@ -404,6 +409,8 @@
 
   async function init() {
     attachEvents();
+    updateNavHeightVar();
+    window.addEventListener('resize', updateNavHeightVar);
     try {
       const res = await fetch('activities.json');
       state.activities = await res.json();

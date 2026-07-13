@@ -20,6 +20,7 @@
     downloadBtn: document.getElementById('download-btn'),
     shareFallbackMsg: document.getElementById('share-fallback-msg'),
     resetBtn: document.getElementById('reset-btn'),
+    themeToggle: document.getElementById('theme-toggle'),
     toast: document.getElementById('toast'),
     stepBtns: Array.from(document.querySelectorAll('.step-btn')),
     stepPanels: Array.from(document.querySelectorAll('.step-panel')),
@@ -225,7 +226,19 @@
     showToast('Your picks have been reset.');
   }
 
+  function toggleTheme() {
+    const isDark = document.documentElement.dataset.theme === 'dark';
+    if (isDark) {
+      delete document.documentElement.dataset.theme;
+      localStorage.setItem('theme', 'light');
+    } else {
+      document.documentElement.dataset.theme = 'dark';
+      localStorage.setItem('theme', 'dark');
+    }
+  }
+
   function attachEvents() {
+    el.themeToggle.addEventListener('click', toggleTheme);
     el.stepBtns.forEach((btn) => btn.addEventListener('click', () => switchStep(btn.dataset.step)));
 
     el.activityList.addEventListener('change', (e) => {

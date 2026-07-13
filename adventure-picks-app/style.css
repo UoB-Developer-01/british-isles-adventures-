@@ -1,31 +1,38 @@
 :root {
-  --bg: #f6f5f1;
+  /* Parchment & stone, Emerald Isle green, royal navy — British Isles palette */
+  --bg: #faf6ec;
   --surface: #ffffff;
-  --ink: #1f2a1f;
-  --ink-soft: #5b6b5b;
-  --border: #dde3d8;
-  --accent: #2f6b3c;
+  --ink: #21324a;
+  --ink-soft: #5d6e82;
+  --border: #e3dac4;
+  --accent: #1e7a4c;
+  --accent-strong: #145c39;
   --accent-ink: #ffffff;
-  --danger: #a13d3d;
-  --chip-bg: #eef3ea;
+  --navy: #24417a;
+  --gold: #b8902e;
+  --danger: #ae3f34;
+  --chip-bg: #e5f1e8;
   --radius: 10px;
-  --shadow: 0 1px 3px rgba(31, 42, 31, 0.08);
+  --shadow: 0 1px 3px rgba(33, 50, 74, 0.1);
+  --flag-stripe: linear-gradient(90deg, #1e7a4c, #b8902e, #24417a);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #14170f;
-    --surface: #1e2419;
-    --ink: #e9efe4;
-    --ink-soft: #a3b09a;
-    --border: #303b28;
-    --accent: #5fa86e;
-    --accent-ink: #0d150d;
-    --danger: #d97a7a;
-    --chip-bg: #26301f;
-    --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-  }
+:root[data-theme="dark"] {
+  --bg: #10161f;
+  --surface: #1a2230;
+  --ink: #eef1f6;
+  --ink-soft: #9aa8bc;
+  --border: #2b3648;
+  --accent: #4fbf82;
+  --accent-strong: #6fd39a;
+  --accent-ink: #08150d;
+  --navy: #7ea1e0;
+  --gold: #e0bb5a;
+  --danger: #e2887a;
+  --chip-bg: #1c2e24;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  --flag-stripe: linear-gradient(90deg, #4fbf82, #e0bb5a, #7ea1e0);
 }
 
 * { box-sizing: border-box; }
@@ -37,7 +44,15 @@ body {
   min-height: 100vh;
 }
 
+body::before {
+  content: "";
+  display: block;
+  height: 4px;
+  background: var(--flag-stripe);
+}
+
 .app-header {
+  position: relative;
   padding: 1.5rem 1.25rem 0;
   max-width: 780px;
   margin: 0 auto;
@@ -47,7 +62,30 @@ body {
 .app-header h1 {
   margin: 0 0 0.25rem;
   font-size: 1.5rem;
+  color: var(--accent-strong);
 }
+
+.theme-toggle {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 1.05rem;
+  box-shadow: var(--shadow);
+}
+
+.theme-toggle .icon-dark { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-light { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-dark { display: inline; }
 
 .subtitle {
   margin: 0 0 1rem;

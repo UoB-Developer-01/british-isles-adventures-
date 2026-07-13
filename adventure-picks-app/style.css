@@ -279,6 +279,7 @@ main {
   color: var(--ink-soft);
   padding: 0 0.2rem;
   user-select: none;
+  touch-action: none;
 }
 
 .empty-state {

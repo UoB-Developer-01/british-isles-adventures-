@@ -116,7 +116,7 @@
       const a = activityById(id);
       if (!a) return '';
       return `
-        <li class="rank-item" draggable="true" data-id="${a.id}">
+        <li class="rank-item${id === draggingId ? ' dragging' : ''}" draggable="true" data-id="${a.id}">
           <span class="drag-handle" aria-hidden="true">&#9776;</span>
           <span class="rank-number">${i + 1}</span>
           <span class="card-body">
@@ -141,28 +141,53 @@
     renderRankList();
   }
 
-  let dragId = null;
+  let draggingId = null;
   function handleDragStart(e) {
     const item = e.target.closest('.rank-item');
     if (!item) return;
-    dragId = item.dataset.id;
+    draggingId = item.dataset.id;
     item.classList.add('dragging');
   }
   function handleDragEnd(e) {
     const item = e.target.closest('.rank-item');
     if (item) item.classList.remove('dragging');
-    dragId = null;
+    draggingId = null;
   }
   function handleDragOver(e) {
     e.preventDefault();
     const target = e.target.closest('.rank-item');
-    if (!target || !dragId || target.dataset.id === dragId) return;
-    const targetIdx = state.selectedIds.indexOf(target.dataset.id);
-    const dragIdx = state.selectedIds.indexOf(dragId);
+    if (target) reorderTo(target.dataset.id);
+  }
+
+  function reorderTo(targetId) {
+    if (!draggingId || targetId === draggingId) return;
+    const targetIdx = state.selectedIds.indexOf(targetId);
+    const dragIdx = state.selectedIds.indexOf(draggingId);
     if (targetIdx === -1 || dragIdx === -1) return;
     state.selectedIds.splice(dragIdx, 1);
-    state.selectedIds.splice(targetIdx, 0, dragId);
+    state.selectedIds.splice(targetIdx, 0, draggingId);
     saveSelection();
+    renderRankList();
+  }
+
+  function handleTouchStart(e) {
+    const handle = e.target.closest('.drag-handle');
+    const item = handle && handle.closest('.rank-item');
+    if (!item) return;
+    draggingId = item.dataset.id;
+    renderRankList();
+  }
+  function handleTouchMove(e) {
+    if (!draggingId) return;
+    e.preventDefault();
+    const touch = e.touches[0];
+    const el2 = document.elementFromPoint(touch.clientX, touch.clientY);
+    const target = el2 && el2.closest('.rank-item');
+    if (target) reorderTo(target.dataset.id);
+  }
+  function handleTouchEnd() {
+    if (!draggingId) return;
+    draggingId = null;
     renderRankList();
   }
 
@@ -265,6 +290,11 @@
     el.rankList.addEventListener('dragstart', handleDragStart);
     el.rankList.addEventListener('dragend', handleDragEnd);
     el.rankList.addEventListener('dragover', handleDragOver);
+
+    el.rankList.addEventListener('touchstart', handleTouchStart, { passive: true });
+    el.rankList.addEventListener('touchmove', handleTouchMove, { passive: false });
+    el.rankList.addEventListener('touchend', handleTouchEnd);
+    el.rankList.addEventListener('touchcancel', handleTouchEnd);
 
     el.shareBtn.addEventListener('click', handleShare);
     el.downloadBtn.addEventListener('click', handleDownload);
